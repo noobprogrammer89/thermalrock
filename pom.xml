@@ -12,7 +12,7 @@
 	<artifactId>thermalrock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>thermalrock</name>
-	<description>GCP Project </description>
+	<description>GCP AppEngine Project  </description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -85,6 +85,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-gcp-starter</artifactId>
@@ -97,6 +98,13 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-gcp-starter-storage</artifactId>
 		</dependency>
+		-->
+		
+		
+		<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-gcp-starter-logging</artifactId>
+</dependency>
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
